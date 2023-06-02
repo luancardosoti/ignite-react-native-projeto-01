@@ -16,7 +16,15 @@ export const styles = StyleSheet.create({
     color: '#6b6b6b',
     fontSize: 16,
   },
+  form: {
+    marginTop: 36,
+    marginBottom: 42,
+    width: '100%',
+    flexDirection: 'row',
+    gap: 12
+  },
   input: {
+    flex: 1,
     height: 56,
     backgroundColor: '#1F1E25',
     color: '#fff',
